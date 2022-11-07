@@ -1,0 +1,17 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Curso automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+    ,
+    "cypress": "./node_modules/.bin/cypress open"
+  },
+  "author": "vivi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

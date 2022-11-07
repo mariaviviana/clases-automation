@@ -1,0 +1,18 @@
+{
+    "primerRegistro":{
+        "username":"pushingit",
+        "password":"123456!",
+        "genre":"Female",
+        "day":"13",
+        "month":"July",
+        "year":"1975"
+    },
+    "segundoRegistro":{
+        "username":"pushingit",
+        "password":"123456!",
+        "genre":"Other",
+        "day":"26",
+        "month":"December",
+        "year":"2005"
+    }
+}
