@@ -12,11 +12,11 @@ describe('Esperas', () => {
         cy.get('button#wait').dblclick()
     })
 
- 	xit("Deberia validar que el boton 'Cargando' vuelva a decir 'Button'", () =>{
+ 	it("Deberia validar que el boton 'Cargando' vuelva a decir 'Button'", () =>{
         cy.get('#wait',{timeout:timeout}).should('have.text','Button')
 	})
   
-    xit("Deberia validar que exista un elemento cuyo texto sea 'Wait 5 more seconds'", () =>{
+    it("Deberia validar que exista un elemento cuyo texto sea 'Wait 5 more seconds'", () =>{
         cy.get('#colorChangeMessage',{timeout:timeout}).should('have.text','Wait 5 more seconds')
 
 	})
